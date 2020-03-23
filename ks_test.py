@@ -16,7 +16,7 @@ headers = {
     "role": "client",
     "user_id": "66471",
 }
-login_data = {"mobilenum": "18191594559", "password": "1qazxdr5.", "role": "tourist", "session_id": "", "userid": "0"}
+login_data = {"mobilenum": "", "password": "", "role": "tourist", "session_id": "", "userid": "0"}
 page_data = {"role": "client", "session_id": "skst8880swtt", "type": "1", "userid": "66471"}
 data = json.dumps(login_data)
 s = requests.Session()
