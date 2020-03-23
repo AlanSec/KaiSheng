@@ -29,21 +29,4 @@
 # print(otherStyleTime)  # 2013--10--10 23:40:00
 
 
-# from decimal import *
-
-# import decimal
-#
-# decimal.getcontext().prec = 4
-# d = decimal.Decimal(3)
-# a = decimal.Decimal('3.1415926')
-# print(d)  # 3
-# print(a)  # 3.1415926
-#
-# with decimal.localcontext() as ctx:
-#     ctx.prec = 3
-#     print(d + a + a)  # 9.283
-#
-#     # 管理器语句退出后，精度恢复
-#     print(a + a)  # 6.28
-#     print(d + a)
 
