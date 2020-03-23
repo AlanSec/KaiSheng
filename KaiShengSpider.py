@@ -41,8 +41,8 @@ class KSSpider:
         self.host = "192.168.0.8"
         self.coll_name = "conference_info"
         # 连接Mongo 账号 密码
-        self.mongo_user = "indexvc"
-        self.mongo_psw = "indexvc01"
+        self.mongo_user = ""
+        self.mongo_psw = ""
         # 以上为连接MongoDB数据库相关配置
         self.client = pymongo.MongoClient(self.host)
         # self.client.admin.authenticate(self.mongo_user, self.mongo_psw)
@@ -50,7 +50,6 @@ class KSSpider:
         self.db = self.client[self.database_name]
         self.data_info_list = self.db[self.coll_name]
         # self.CompanyColl = self.db[self.CompanyInfo]
-        # IT桔子相关表
 
     @retry(stop_max_attempt_number=10)
     def get_proxy(self):
