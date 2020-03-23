@@ -58,7 +58,7 @@ class KSSpider:
         1 .调用快代理api 获取代理ip地址
         :return: proxies
         """
-        proxy_url = "http://kps.kdlapi.com/api/getkps/?orderid=931789283547655&num=1&pt=1&sep=1"
+        proxy_url = ""
         r = requests.get(proxy_url)
         if r.status_code == 200:
             proxies = {
