@@ -11,8 +11,8 @@ import random
 
 class KSSpider:
     def __init__(self):
-        self.mobile_num = "18191594559"
-        self.password = "1qazxdr5."
+        self.mobile_num = ""
+        self.password = ""
         self.login_url = "http://api.capvision.cn/ks_web/api/login/loginwithpassword"
         self.list_url = "http://api.capvision.cn/ks_web/api/conference/v3/conference_list"
         self.detail_url = "http://api.capvision.cn/ks_web/api/conference/v2/detail"
